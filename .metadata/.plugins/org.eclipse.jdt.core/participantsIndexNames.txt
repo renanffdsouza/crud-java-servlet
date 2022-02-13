@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+C:\Users\Renan-Indikatore\OneDrive - Indikatore\Área de Trabalho\spring-curso\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\141730439.index
+\gerenciador\src\main\java
