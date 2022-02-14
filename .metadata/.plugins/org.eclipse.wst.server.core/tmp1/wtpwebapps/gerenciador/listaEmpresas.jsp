@@ -1,5 +1,5 @@
 <%@page
-	import="java.util.List, br.com.renan.gerenciador.servlet.Empresa"%>
+	import="java.util.List,br.com.renan.gerenciador.servlet.modelo.Empresa"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
@@ -17,8 +17,8 @@
 	<ul>
 		<c:forEach items="${empresas}" var="empresa">
 			<li>${empresa.nome } - <fmt:formatDate value="${empresa.dataAbertura }" pattern="dd/MM/yyyy"/>
-			<a href="/gerenciador/mostrarEmpresa?id=${empresa.id}">edita</a>
-			<a href="/gerenciador/removeEmpresa?id=${empresa.id}">remove</a>
+			<a href="/gerenciador/unicaEntrada?acao=MostraEmpresas&id=${empresa.id}">edita</a>
+			<a href="/gerenciador/unicaEntrada?acao=RemoveEmpresas&id=${empresa.id}">remove</a>
 			</li>
 			
 		</c:forEach>

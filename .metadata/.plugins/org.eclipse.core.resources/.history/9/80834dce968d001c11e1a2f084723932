@@ -1,0 +1,32 @@
+package br.com.renan.gerenciador.servlet;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import br.com.renan.gerenciador.acao.ListaEmpresas;
+
+@WebServlet("/unicaEntrada")
+public class UnicaEntradaServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void service(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		String paramAcao = request.getParameter("acao");
+
+		if (paramAcao.equals("ListaEmpresas")) {
+			ListaEmpresas acao = new ListaEmpresas();
+			acao.executa(request, response);
+
+		} else if (paramAcao.equals("Removendo empresa")) {
+			ListaEmpresas acao = new ListaEmpresas();
+			acao.executa(request, response);
+		} else if (paramAcao.equals("Mostrar empresa")) {
+			System.out.println("mostrando dados empresas");
+		}
+	}
+
+}

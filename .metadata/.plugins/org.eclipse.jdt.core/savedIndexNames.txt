@@ -8,10 +8,10 @@ INDEX VERSION 1.131+C:\Users\Renan-Indikatore\OneDrive - Indikatore\Área de Trab
 441640328.index
 1865797976.index
 2940048268.index
-456790899.index
 1960757399.index
 1600214821.index
 1570291990.index
+2030220621.index
 2037343188.index
 258322855.index
 2344690187.index
@@ -24,12 +24,13 @@ INDEX VERSION 1.131+C:\Users\Renan-Indikatore\OneDrive - Indikatore\Área de Trab
 2360345207.index
 1622627388.index
 385227656.index
-1225531654.index
+2870919431.index
 4039846036.index
+1225531654.index
 3200344079.index
+1009042387.index
 978489877.index
 25797892.index
-1009042387.index
 808810773.index
 2313045575.index
 889040754.index

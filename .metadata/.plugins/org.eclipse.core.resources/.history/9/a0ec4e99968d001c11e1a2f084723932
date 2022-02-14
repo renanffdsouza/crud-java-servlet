@@ -1,0 +1,5 @@
+package br.com.renan.gerenciador.acao;
+
+public class RemoveEmpresas {
+
+}
