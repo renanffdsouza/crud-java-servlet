@@ -14,4 +14,13 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="br.com.renan.gerenciador.servlet.Banco"/>
     <fullyQualifiedTypeName name="br.com.renan.gerenciador.servlet.Empresa"/>
+    <fullyQualifiedTypeName name="br.com.renan.gerenciador.acao.ListaEmpresas"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="br.com.renan.gerenciador.acao.RemoveEmpresas"/>
+    <fullyQualifiedTypeName name="br.com.renan.gerenciador.servlet.MostraEmpresaServlet"/>
+    <fullyQualifiedTypeName name="br.com.renan.gerenciador.acao.MostraEmpresas"/>
+    <fullyQualifiedTypeName name="br.com.renan.gerenciador.acao.AlteraEmpresas"/>
+    <fullyQualifiedTypeName name="br.com.renan.gerenciador.acao.NovaEmpresa"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

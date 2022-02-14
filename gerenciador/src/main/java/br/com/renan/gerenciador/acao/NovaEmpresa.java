@@ -13,7 +13,7 @@ import br.com.renan.gerenciador.servlet.modelo.Banco;
 import br.com.renan.gerenciador.servlet.modelo.Empresa;
 
 public class NovaEmpresa {
-	public void executa(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+	public String executa(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		String nomeEmpresa = request.getParameter("nome");
 		String dataEmpresa = request.getParameter("data");
 
@@ -33,7 +33,7 @@ public class NovaEmpresa {
 		banco.adiciona(empresa);
 		
 		request.setAttribute("empresa", empresa.getNome());
-		response.sendRedirect("unicaEntrada?acao=ListaEmpresas");
+		return "redirect:unicaEntrada?acao=ListaEmpresas";
 
 //		RequestDispatcher rd = request.getRequestDispatcher("/listaEmpresas");
 //		request.setAttribute("empresa", empresa.getNome());

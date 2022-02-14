@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.renan.gerenciador.servlet.modelo.Banco;
 
 public class RemoveEmpresas {
-	public void executa(HttpServletRequest request, HttpServletResponse response) throws IOException {
+	public String executa(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		String paramId = request.getParameter("id");
 		Integer id = Integer.valueOf(paramId);
 		
@@ -17,6 +17,6 @@ public class RemoveEmpresas {
 		Banco banco = new Banco();
 		banco.removeEmpresa(id);
 		
-		response.sendRedirect("unicaEntrada?acao=ListaEmpresas");
+		return "redirect:unicaEntrada?acao=ListaEmpresas";
 	}
 }

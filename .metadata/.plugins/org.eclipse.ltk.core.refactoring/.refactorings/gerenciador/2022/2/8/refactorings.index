@@ -12,3 +12,10 @@
 1644846585069	Copy compilation unit
 1644847039320	Copy compilation unit
 1644848079836	Delete elements
+1644876749130	Move 'formAlteraEmpresa.jsp' to 'wiew'
+1644876751443	Move 'formNovaEmpresa.jsp' to 'wiew'
+1644876757928	Move 'wiew' to 'WEB-INF'
+1644876765552	Move 'listaEmpresas.jsp' to 'wiew'
+1644876767433	Move 'novaEmpresaCriada.jsp' to 'wiew'
+1644876918767	Rename resource 'wiew'
+1644877099555	Copy compilation unit

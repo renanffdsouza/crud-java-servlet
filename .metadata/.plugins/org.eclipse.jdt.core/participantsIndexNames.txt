@@ -1,3 +1,9 @@
 INDEX VERSION 1.131
+C:\Users\Renan-Indikatore\OneDrive - Indikatore\햞ea de Trabalho\spring-curso\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\667700506.index
+\gerenciador\src\main\java
+C:\Users\Renan-Indikatore\OneDrive - Indikatore\햞ea de Trabalho\spring-curso\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3216619146.index
+\gerenciador\src\main\java
 C:\Users\Renan-Indikatore\OneDrive - Indikatore\햞ea de Trabalho\spring-curso\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\141730439.index
+\gerenciador\src\main\java
+C:\Users\Renan-Indikatore\OneDrive - Indikatore\햞ea de Trabalho\spring-curso\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\117821935.index
 \gerenciador\src\main\java
