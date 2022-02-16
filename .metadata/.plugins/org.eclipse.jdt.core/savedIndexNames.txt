@@ -25,9 +25,9 @@ INDEX VERSION 1.131+C:\Users\Renan-Indikatore\OneDrive - Indikatore\Área de Trab
 2360345207.index
 1622627388.index
 385227656.index
-1225531654.index
-4039846036.index
 2870919431.index
+4039846036.index
+1225531654.index
 3200344079.index
 1009042387.index
 978489877.index

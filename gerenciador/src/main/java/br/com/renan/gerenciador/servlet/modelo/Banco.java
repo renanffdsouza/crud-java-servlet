@@ -8,6 +8,7 @@ import org.eclipse.jdt.internal.compiler.ast.WhileStatement;
 
 public class Banco {
 	private static List<Empresa> lista = new ArrayList<Empresa>();
+	private static List<Usuario> listaUsuario = new ArrayList<Usuario>();
 	private static Integer chaveSequencial = 1;
 
 	static {
@@ -18,9 +19,15 @@ public class Banco {
 		Empresa empresa2 = new Empresa();
 		empresa2.setId(chaveSequencial++);
 		empresa2.setNome("Americanas");
-
 		lista.add(empresa);
 		lista.add(empresa2);
+		
+		Usuario usuario = new Usuario();
+		usuario.setLogin("Renan");
+		usuario.setSenha("123");
+		listaUsuario.add(usuario);
+
+		
 	}
 
 	public void adiciona(Empresa empresa) {
@@ -51,6 +58,15 @@ public class Banco {
 				return empresa;
 			}
 
+		}
+		return null;
+	}
+
+	public Usuario existeUsuario(String login, String senha) {
+		for (Usuario usuario : listaUsuario) {
+			if(usuario.ehIgual(login, senha)) {
+				return usuario;
+			}
 		}
 		return null;
 	}

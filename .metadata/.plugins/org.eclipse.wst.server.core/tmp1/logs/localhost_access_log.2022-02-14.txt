@@ -251,3 +251,5 @@
 0:0:0:0:0:0:0:1 - - [14/Feb/2022:19:42:17 -0300] "GET /gerenciador/unicaEntrada?acao=NovaEmpresaForm HTTP/1.1" 200 396
 0:0:0:0:0:0:0:1 - - [14/Feb/2022:19:44:52 -0300] "GET /gerenciador/unicaEntrada?acao=novaEmpresaForm HTTP/1.1" 500 1255
 0:0:0:0:0:0:0:1 - - [14/Feb/2022:19:45:26 -0300] "GET /gerenciador/unicaEntrada?acao=NovaEmpresaForm HTTP/1.1" 200 396
+127.0.0.1 - - [14/Feb/2022:19:46:04 -0300] "GET / HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [14/Feb/2022:19:46:10 -0300] "GET /gerenciador/unicaEntrada?acao=NovaEmpresaForm HTTP/1.1" 200 396

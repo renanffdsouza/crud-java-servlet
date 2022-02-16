@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.renan.gerenciador.servlet.modelo.Banco;
 import br.com.renan.gerenciador.servlet.modelo.Empresa;
 
-public class MostraEmpresas {
+public class MostraEmpresas implements Acao {
 	public String executa(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		String paramId = request.getParameter("id");
 		Integer id = Integer.valueOf(paramId);

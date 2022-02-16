@@ -1,0 +1,10 @@
+package br.com.renan.gerenciador.servlet.modelo;
+
+public class Usuario {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

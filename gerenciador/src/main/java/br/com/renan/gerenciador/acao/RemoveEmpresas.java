@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import br.com.renan.gerenciador.servlet.modelo.Banco;
 
-public class RemoveEmpresas {
+public class RemoveEmpresas implements Acao {
 	public String executa(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		String paramId = request.getParameter("id");
 		Integer id = Integer.valueOf(paramId);
