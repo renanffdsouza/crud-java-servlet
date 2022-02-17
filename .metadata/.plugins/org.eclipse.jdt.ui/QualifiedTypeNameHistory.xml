@@ -3,11 +3,9 @@
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.ast.WhileStatement"/>
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
@@ -15,12 +13,22 @@
     <fullyQualifiedTypeName name="br.com.renan.gerenciador.servlet.Banco"/>
     <fullyQualifiedTypeName name="br.com.renan.gerenciador.servlet.Empresa"/>
     <fullyQualifiedTypeName name="br.com.renan.gerenciador.acao.ListaEmpresas"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
     <fullyQualifiedTypeName name="br.com.renan.gerenciador.acao.RemoveEmpresas"/>
     <fullyQualifiedTypeName name="br.com.renan.gerenciador.servlet.MostraEmpresaServlet"/>
     <fullyQualifiedTypeName name="br.com.renan.gerenciador.acao.MostraEmpresas"/>
     <fullyQualifiedTypeName name="br.com.renan.gerenciador.acao.AlteraEmpresas"/>
     <fullyQualifiedTypeName name="br.com.renan.gerenciador.acao.NovaEmpresa"/>
+    <fullyQualifiedTypeName name="br.com.renan.gerenciador.acao.Acao"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+    <fullyQualifiedTypeName name="br.com.renan.gerenciador.servlet.modelo.Usuario"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="br.com.renan.gerenciador.servlet.modelo.Banco"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="javax.servlet.Filter"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebFilter"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.thoughtworks.xstream.XStream"/>
+    <fullyQualifiedTypeName name="com.google.gson.Gson"/>
 </qualifiedTypeNameHistroy>

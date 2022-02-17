@@ -18,7 +18,7 @@ import br.com.renan.gerenciador.acao.NovaEmpresa;
 import br.com.renan.gerenciador.acao.NovaEmpresaForm;
 import br.com.renan.gerenciador.acao.RemoveEmpresas;
 
-@WebServlet("/unicaEntrada")
+//@WebServlet(urlPatterns = "/unicaEntrada")
 public class UnicaEntradaServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -28,15 +28,6 @@ public class UnicaEntradaServlet extends HttpServlet {
 		String paramAcao = request.getParameter("acao");
 		
 		
-		HttpSession sessao = request.getSession();
-		boolean usuarioNaoLogado = sessao.getAttribute("usuarioLogado") == null;
-		boolean ehUmaAcaoProtegida = !(paramAcao.equals("Login") || paramAcao.equals("FormLogin"));
-		
-		if (ehUmaAcaoProtegida && usuarioNaoLogado) {
-			response.sendRedirect("unicaEntrada?acao=FormLogin");
-			return;
-		}
-
 	
 
 		String nomedaClasse = "br.com.renan.gerenciador.acao." + paramAcao;

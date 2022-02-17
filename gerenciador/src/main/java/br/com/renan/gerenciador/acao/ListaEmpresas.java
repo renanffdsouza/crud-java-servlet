@@ -13,18 +13,14 @@ import br.com.renan.gerenciador.servlet.modelo.Banco;
 import br.com.renan.gerenciador.servlet.modelo.Empresa;
 
 public class ListaEmpresas implements Acao {
-	public String executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
-		HttpSession sessao = request.getSession();
-		if(sessao.getAttribute("usuarioLogado") == null) {
-			return "redirect:unicaEntrada?acao=FormLogin";
-		}
+	public String executa(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		Banco banco = new Banco();
 		List<Empresa> lista = banco.getEmpresa();
 		request.setAttribute("empresas", lista);
-		
+
 		return "forward:listaEmpresas.jsp";
-		
+
 	}
 
 }
